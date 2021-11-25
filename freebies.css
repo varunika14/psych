@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.conatiner{
+    width:100%;
+    height:1200px;
+    margin: 0;
+}
+.title{
+    
+    width:100%;
+    height:350px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://apps.shopifycdn.com/listing_images/d6260cb59f8f96235e1a2e9576da8bd6/banner/fdeae9cea4c9f0b5d814c6119b14723d.png);
+
+}
+.name{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+h1{
+    font-size: 100px;
+    color: white;
+}
+
+
+.freebies{
+    margin-top: 100px;
+    width:100% ;
+    height:100%;
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ grid-template-rows: repeat(3,2fr);
+ 
+ align-items: center;
+}
+.itm1,.itm2,.itm3,.itm4,.itm5,.itm6,.itm7,.itm8,.itm9,.itm10,.itm11,.itm12{
+    border-radius: 6px;
+    padding: 40px; 
+   margin:30px;
+    height:480px;
+     width:270px;
+    align-items: center;
+    border: 20px black;
+    transition: 0.3s ease-out;
+    background-position: center;
+    background-size: cover;
+}
+.itm1{
+    background-image: url(https://i.pinimg.com/236x/df/67/64/df676407e7a86ee004e15b6508c3c102.jpg); 
+}
+.itm2{
+    background-image: url(https://149528304.v2.pressablecdn.com/wp-content/uploads/2019/12/quotes15.jpg); 
+}
+.itm3{
+    background-image: url(https://i.pinimg.com/474x/2a/3d/51/2a3d51db3287a838bf9adccb8b0861ad.jpg); 
+}
+.itm4{
+    background-image: url(https://i.pinimg.com/originals/d4/b4/40/d4b440464d219246cd5a84be23254f94.jpg); 
+}
+.itm5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyLRHtHgQv6o8CbERjmB19BNEyZ-BB_ZdIvA&usqp=CAU); 
+}
+.itm6{
+    background-image: url(https://i.pinimg.com/736x/51/29/86/512986b4bb486320de09f794b42089cc.jpg); 
+}
+.itm7{
+    background-image: url(https://i.pinimg.com/originals/fa/86/68/fa866851abcaa2d31969a44910285b03.jpg); 
+}
+.itm8{
+    background-image: url(https://i.pinimg.com/236x/01/1d/ab/011dab17875b4b41c89ca51631f61b87.jpg); 
+}
+.itm9{
+    background-image: url(https://i.pinimg.com/564x/42/09/4f/42094fcb4434793025bedc44b89c8f59.jpg); 
+}
+.itm10{
+    background-image: url(https://i.pinimg.com/564x/06/8a/e2/068ae2ec2df519d3feb8de619ef2aaa1.jpg); 
+}
+.itm11{
+    background-image: url(https://i.pinimg.com/564x/6a/9f/d4/6a9fd4615012e3014035447001b59119.jpg); 
+}
+.itm12{
+    background-image: url(https://i.pinimg.com/564x/dc/e6/30/dce6305e9dbe48f49f9c9a0dbe736f35.jpg); 
+}
+.itm1:hover{
+ opacity: 0.7;
+ 
+}
+.itm2:hover{
+    opacity: 0.7;
+}
+.itm3:hover{
+    opacity: 0.7;
+}
+.itm4:hover{
+    opacity: 0.7;
+}
+.itm5:hover{
+    opacity: 0.7;
+}
+.itm6:hover{
+    opacity: 0.7;
+}
+
+.itm7:hover{
+    opacity: 0.7;
+}
+
+.itm8:hover{
+    opacity: 0.7;
+}
+
+.itm9:hover{
+    opacity: 0.7;
+}
+
+.itm10:hover{
+    opacity: 0.7;
+}
+.itm11:hover{
+    opacity: 0.7;
+}
+.itm12:hover{
+    opacity: 0.7;
+}

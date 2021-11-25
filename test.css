@@ -1,0 +1,24 @@
+*{
+    margin: 20px;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    font-family:garamond;
+}
+.container{
+    background-color: rgb(211, 179, 168);
+    height: 100%;
+}
+h1{
+    padding: 50px;
+    font-size: 59px;
+}
+h2{
+    place-self: center;
+    font-size: 45px;
+    
+}
+.form{
+    padding-left: 100px;
+}

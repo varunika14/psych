@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+
+*{ box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:garamond;
+
+}
+  /*  .content1,.content2,.content3,.content4,.content5,.content6
+    {
+        width:100%;
+    }
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left:0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li{
+        color:#fff
+    }
+    .menu{
+      display: block;
+      cursor: pointer;
+
+    }*/
+
+
+
+body{
+    background-color:white;
+    padding:0px;
+    margin:0px;
+}
+header{
+    margin: 0px;
+    width: 100%;
+    height: 5rem;
+    background:white;
+    max-width: 117rem;
+
+
+}
+.ml2, .ml3, .ml4, .ml5, .ml6, .ml7, .ml8 {
+    font-weight: 900;
+    font-size: 3em;
+  }
+
+/*header img{
+    height: 5rem;
+    padding-left: 3rem;
+    border-radius: 50%;
+}*/
+.container{
+    background-color: teal;
+    background-image: url("https://images.unsplash.com/photo-1559677437-62c20d42dd27?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+.ml1 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+
+  .ml1 .letter {
+    display: inline-block;
+    line-height: 1em;
+    color: white;
+  }
+
+  .ml1 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+
+  .ml1 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 0 0;
+  }
+
+  .ml1 .line1 { top: 0; }
+  .ml1 .line2 { bottom: 0; }
+.heading{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+
+}
+.container img::before{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8));
+
+}
+
+/*.image img{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8));
+
+}*/
+
+.navbar{
+
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.active li:hover{
+    background-color:rgb(161, 160, 160);
+
+    border-radius: 3px;
+}
+nav ul{
+    display: inline-flex;
+    list-style: none;
+}
+nav li{
+    list-style: none;
+   width: 144px;
+   margin: 20px;
+   padding:15px;
+
+}
+
+
+
+.content-container{
+  
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 524px 524px;
+    grid-area: auto;
+   /* padding-left: 20px;*/
+   /* padding-right: 30px;*/
+    place-content: center;
+}
+
+.content1{
+
+    align-items: center;
+    background-color: #dfeae2;
+    min-width: 250px;
+}
+.content2{
+    align-items: center;
+    background-color: #b4d6c1;
+}
+.content3{
+    align-items: center;
+    background-color: #8cd3a7;
+}
+.content4{
+    align-items: center;
+    background-color:#6baf9c;
+}
+.content5{
+    align-items: center;
+    background-color: #6baf9c;
+}
+.content6{
+    align-items: center;
+    background-color:#8cd3a7;
+}
+.content-7{
+    align-items: center;
+    background-color: #b4d6c1;
+}
+
+.content8{
+    align-items: center;
+    background-color:#dfeae2;
+}
+.container h1{
+    align-content: center;
+    padding-top: 50px;
+    font-size: 150px;
+
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 30px;
+}
+.read{
+    text-align: center;
+    padding-left: 109px;
+    padding-top: 600px;
+}
+p{
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.win{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height:80%;
+    background-color: #e4d96f;
+    text-align: center;
+    color: black;
+}
+.win p{
+    padding-top: 50px;
+    color: black;
+    font-size: 20px;
+}
+.slide{
+    background-image: url("https://www.sunflowerwellnessretreat.com/wp-content/uploads/2019/11/What-is-drug-rehab-like.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+/*.slide img{
+    width:100%;
+    height: 650px;
+
+}*/
+.footer{
+
+    height: 80px;
+    place-items: center;
+    padding-left: 580px;
+}
+.footer a{
+    padding-top: 40px;
+    padding-right: 80px;
+    font-size: 30px;
+}
+
+.img1, .img2{
+    position: relative;
+    opacity: 0.70;
+    background-attachment: fixed;
+}
+.heading{
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+  }
+
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+
+  .heading .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
